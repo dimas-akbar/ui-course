@@ -1,0 +1,10 @@
+body {
+    background-color: papayawhip;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
