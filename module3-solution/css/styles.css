@@ -193,6 +193,96 @@ body {
 
 /* End - Footer */
 
+/* Start - Menu Category */
+
+#menu-categories-title+div {
+  margin-bottom: 50px;
+}
+
+.category-tile {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 0 auto 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.544);
+  color: white;
+  font-size: 1.2em;
+}
+
+.category-tile:hover {
+  box-shadow: 0 2px 2px 7px #f6b319;
+}
+
+/* End - Menu Category */
+
+/* Start - Single Category */
+
+.menu-item-tile {
+  margin: 0 auto 30px;
+}
+
+.menu-item-tile hr {
+  width: 85%;
+}
+
+.menu-item-tile .menu-item-price {
+  font-size: .9em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #557c3e;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #557c3e;
+  text-align: center;
+  width: 50px;
+}
+
+.menu-item-description {
+  padding-right: 30px;
+}
+
+.menu-item-title {
+  margin: 0 0 10px;
+}
+
+.menu-item-details {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: justify;
+}
+
+/* End - Single Category */
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
@@ -273,6 +363,41 @@ body {
   #panel-footer hr {
     width: 50%;
   }
+
+  #call-btn>a {
+    font-size: 1em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #61122f;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+    margin-right: 15px;
+  }
+
+  .menu-item-description {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .menu-item-details {
+    text-align: center;
+  }
 }
 
 /********** Super extra small devices only **********/
@@ -293,5 +418,14 @@ body {
   #specials-tiles,
   #map-tiles {
     font-size: 80%;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
   }
 }
