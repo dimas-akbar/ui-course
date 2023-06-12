@@ -1,0 +1,56 @@
+body {
+    font-size: 16px;
+    color: rgb(200, 197, 197);
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav {
+    background-color: #cd3011ba;
+    border-radius: 0;
+    border: 0;
+}
+
+#company-name {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+#nav-list a {
+    color: #ffffff;
+    font-size: larger;
+}
+
+#nav-list a:hover {
+    background-color: #cd301161;
+}
+
+#chicken {
+    background-color: #9ecd11ba;
+    margin: 30px 30px 30px 30px;
+}
+
+#beef {
+    background-color: #11c7cdba;
+    margin: 30px 30px 30px 30px;
+}
+
+#sushi {
+    background-color: #cd1111ba;
+    margin: 30px 30px 30px 30px;
+}
+
+#chicken p,
+#sushi p,
+#beef p {
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    padding-top: 20px;
+
+}
